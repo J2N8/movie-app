@@ -20,6 +20,7 @@ header {
 .movie-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
@@ -85,4 +86,23 @@ header {
 
 .search:focus {
   outline:0 ;
+}
+
+.tag {
+  background-color: #22254b;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.tag.green{
+color: rgb(38, 221, 38);
+}
+
+.tag.orange{
+  color: orange;
+}
+
+.tag.red{
+  color: red;
 }

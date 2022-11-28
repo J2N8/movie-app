@@ -17,6 +17,26 @@ header {
   justify-content: flex-end;
 }
 
+footer {
+  background-color: #373b69;
+  color: white;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  justify-content: space-around;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+footer a:hover {
+  color: green;
+    transition: all 200ms ease-in-out;
+}
+
 .movie-container {
   display: flex;
   flex-wrap: wrap;

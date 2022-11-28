@@ -53,6 +53,34 @@ function App() {
         {movies.length > 0 &&
           movies.map((movie) => <Movie key={movie.id} {...movie} />)}
       </div>
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/jasmine-poole-421b101b7/"
+          target="_blank"
+          className="linkedIn"
+          rel="noopener noreferrer"
+        >
+          Jasmine Poole
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/J2N8/movie-app"
+          target="_blank"
+          className="github"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>{" "}
+        <a
+          href="https://movieapp-reactjs-jp.netlify.app/"
+          target="_blank"
+          className="netlify"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }

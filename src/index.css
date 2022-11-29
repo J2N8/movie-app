@@ -1,5 +1,9 @@
 body {
-  background-color: #22254b;
+  background: linear-gradient(
+    178deg,
+    rgba(201, 234, 252, 0.51) 14.9%,
+    rgba(139, 192, 216, 0.73) 80%
+  );
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -11,14 +15,14 @@ body {
 }
 
 header {
-  background-color: #373b69;
+  background-color: #004a7c;
   display: flex;
   padding: 1rem;
   justify-content: flex-end;
 }
 
 footer {
-  background-color: #373b69;
+  background-color: #004a7c;
   color: white;
   display: flex;
   padding: 1rem;
@@ -34,7 +38,7 @@ footer a {
 
 footer a:hover {
   color: green;
-    transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .movie-container {
@@ -44,7 +48,7 @@ footer a:hover {
 }
 
 .movie {
-  background-color: #373b69;
+  background-color: #004a7c;
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   margin: 1rem;
@@ -75,7 +79,7 @@ footer a:hover {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1);
-  color: #22254b;
+  color: #004a7c;
   max-height: 100%;
   overflow: auto;
   padding: 1rem;
@@ -98,7 +102,7 @@ footer a:hover {
 
 .search {
   background-color: transparent;
-  border: 2px solid #22254b;
+  border: 2px solid #02131f;
   border-radius: 50px;
   color: white;
   font-family: inherit;
@@ -107,24 +111,24 @@ footer a:hover {
 }
 
 .search:focus {
-  outline:0 ;
+  outline: 0;
 }
 
 .tag {
-  background-color: #22254b;
+  background-color: #013a60;
   font-weight: bold;
   border-radius: 5px;
   padding: 0.5rem;
 }
 
-.tag.green{
-color: rgb(38, 221, 38);
+.tag.green {
+  color: rgb(38, 221, 38);
 }
 
-.tag.orange{
+.tag.orange {
   color: orange;
 }
 
-.tag.red{
+.tag.red {
   color: red;
 }
